@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="src/fav-icon/favicon.ico">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Lei de Ohm</title>
+</head>
+
+    <header>
+        <nav id="navbar">
+            <i class="fa-solid fa-industry" id="nav_logo"> Ohm</i>
+
+            <ul id="nav_list"> <!--underscore para ID (gosto pessoal)-->
+                <li class="nav-item active">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#leium">1º lei</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#leidois">2º lei</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#OhmC">Calculo Ohm</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fórmulas">Fórmulas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#macetes">Macetes</a>
+                </li>
+            </ul>
+            <button class="btn-default"> <!--minus para classes (gosto pessoal)-->
+                <a href="https://brasilescola.uol.com.br/fisica/a-lei-ohm.htm#Macete"><i>reference</i></a>
+            </button>
+            
+            <button id="mobile_btn">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </nav>
+        <div id="mobile_menu">
+            <ul id="mobile_nav_list">
+                <li class="nav-item">
+                    <a href="#home">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#1º-lei">1º lei</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#leidois">2º lei</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#OhmC">Calculo Ohm</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#fórm">Fórmulas</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#macete">Macetes</a>
+                </li>
+            </ul>
+
+            <button class="btn-default"> <a href="https://brasilescola.uol.com.br/fisica/a-lei-ohm.htm#Macete"> <i>Ref. Lei de Ohm</i></a>
+            </button>
+        </div>
+    </header>
+
+    <main id="content">
+        <section id="home">
+            <div class="shape"></div>
+            <div id="cta">
+                <h1 class="tittle"> 
+                    Tudo que você precisa saber sobre
+                    <span>Lei de Ohm</span>
+                </h1>
+
+                <p class="descrição">
+                    As leis de Ohm permitem calcularmos importantes grandezas físicas, como a tensão,
+                    corrente e a resistência elétrica dos mais diversos elementos presentes em um circuito.
+                   No entanto, essas leis só podem ser aplicadas a resistências ôhmicas...
+                    Isto é, corpos cujas resistências tenham módulo constante.
+                </p>
+                <div id="cta_buttons">
+                    <a href="#" class="btn-default">
+                        1º Lei de Ohm
+                    </a>
+                </div>
+                <div class="social-media-buttons">
+                    <a href="https://github.com/sazyybtw">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+
+            </div>
+            
+            <div id="banner">
+                <img src="src/images/Lei_de_ohm_-_Ohm_s_law.png" alt="">
+            </div>
+        </section>
+        <section id="leium">
+            <h2 class="section-tittle">1ª lei de Ohm</h2>
+            <p>A 1ª lei de Ohm determina que a diferença de potencial entre dois pontos de um resistor é proporcional à corrente elétrica que é estabelecida nele.
+                Além disso, de acordo com essa lei, a razão entre o potencial elétrico e a corrente elétrica é sempre constante para resistores ôhmicos.</p>
+                <img src="src/images/image_2025-04-01_231446010-removebg-preview.png" alt="">
+                <p class="descrição">Na lei mostrada na figura acima, chamamos de U a tensão elétrica ou o potencial elétrico.
+                    Essa grandeza é escalar e é medida em Volts. A diferença de potencial elétrico entre dois pontos de um circuito, por sua vez
+                    indica que ali existe uma resistência elétrica, como mostra a figura:</p>
+                    <img src="src/images/2img-1lei.png" alt="">
+                    <p>Essa diferença decorre do consumo da energia dos elétrons, uma vez que essas partículas transferem parte de sua energia aos átomos da rede cristalina, quando conduzidos por meios que apresentem resistência à sua condução.
+                        O fenômeno que explica tal dissipação de energia é chamado de efeito Joule. </p>
+
+                        <br><p>A figura abaixo mostra o perfil do potencial elétrico antes e após a passagem da corrente por um elemento resistivo de um circuito elétrico, observe a queda de energia: </p>
+
+                        <img src="src/images/3img.png" alt="">
+
+                        <p>A corrente elétrica i mede o fluxo de cargas pelo corpo em Ampères, ou em C/s.
+                            A corrente elétrica é diretamente proporcional à resistência elétrica dos corpos: quanto maior a resistência elétrica de um corpo, menor será a corrente elétrica a atravessá-lo.</p>
+        </section>
+
+        <section id="leidois">
+            <h3 class="section-tittle-2">2ª lei de Ohm</h3>
+            <p>A resistência elétrica R é uma propriedade do corpo que é percorrido por uma corrente elétrica.
+                Essa propriedade depende de fatores geométricos, como o comprimento ou a área transversal do corpo, mas também depende de uma grandeza chamada de resistividade. Tal grandeza relaciona-se exclusivamente ao material do qual um corpo é formado.
+                A lei que relaciona a resistência elétrica a essas grandezas é conhecida como segunda lei de Ohm.</p>
+                <br><p>A segunda lei de Ohm é mostrada na figura abaixo:</p>
+                <img src="src/images/2lei-1.png" alt="">
+                <p>Chamamos de resistor ôhmico todo corpo capaz de apresentar resistência elétrica constante para um determinado intervalo de tensões elétricas.</p>
+                <br><p>O gráfico de tensão em função da corrente elétrica para os resistores ôhmicos é linear, como mostra a figura abaixo:</p>
+                <figure>
+                <img src="src/images/2lei-2.png" alt="">
+                <figcaption>O resistor pode ser considerado ôhmico no intervalo em que o seu potencial elétrico aumenta linearmente com a corrente elétrica.</figcaption>
+            </figure>
+                <br><p>Tomando-se o segmento reto do gráfico, sabe-se que o potencial elétrico entre os terminais de um resistor sofrerá uma variação em seu potencial elétrico que é sempre proporcional à corrente elétrica que o percorre, como mostra a figura abaixo:</p>
+
+        </section>
+        
+    </main>
+    <footer>
+        <img src="src/images/wave (5).svg" alt="">
+
+        <div id="footer_itens">
+            <span id="copyright">
+                &copy 2025 sazyy
+            </span>
+
+            <div>
+                <a href="https://github.com/sazyybtw">
+                    <i class="fa-brands fa-github"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="src/js/script.js"></script>
+</body>
+</html>
